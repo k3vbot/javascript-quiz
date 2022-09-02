@@ -63,9 +63,9 @@ Highscore and Restart:
 
 ### Built with
 
--JavaScript
--HTML
--CSS
+- JavaScript
+- HTML
+- CSS
 
 ### Continued development
 
