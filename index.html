@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>JavaScript Quiz!</title>
+</head>
+
+<body>
+    <div id="container">
+        <div class="cover" id="cover" style="display: block;">
+        <article>Test your knowledge of JavaScript!</article>
+        <div id="start">Start!</div>    
+    </div>
+    <div class="quiz" id="quiz" style="display: none;">
+        <div id="question"></div>
+        <div id="answers">
+            <div class="answer" id="A" onclick="checkAnswer('A')"></div>
+            <div class="answer" id="B" onclick="checkAnswer('B')"></div>
+            <div class="answer" id="C" onclick="checkAnswer('C')"></div>
+            <div class="answer" id="D" onclick="checkAnswer('D')"></div>
+            <div class="result" id="result"></div>
+        </div>
+
+        <div id="progress"></div>
+    </div>
+    <form class="input_group">
+        <div id="scoreContainer" style="display: none;">
+        </div>
+    </form>
+    <div id="highscoreContainer" style="display: none;"></div>
+    </div>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
